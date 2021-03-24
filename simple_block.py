@@ -48,6 +48,8 @@ class BlockChain:
 
         return hex_hash
 
+    
+# Example of transactions being added to create a blockchain (each transaction is a block)
 blockchain = BlockChain()
 t1 = blockchain.new_transaction("Samarjit", "Angel", '$100')
 t2 = blockchain.new_transaction("Angel", "Samarjit", '$1')
